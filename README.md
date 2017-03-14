@@ -39,6 +39,7 @@ The grunt-contrib-watch module when running will check for changes to the code, 
 - Have the vertical navigation be drawn dynamically
   - Perhaps some VMs may not utilize all the plugins (i.e, non-NUMA machines may not want to see the NUMA plugin by default)
 - Look into Angular 4 and how it can be included  
+- Look into scroll bars and making the vertical navigation look better when not all plugins fit vertically on the screen
   
 ### Reference
 

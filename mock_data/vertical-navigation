@@ -1,0 +1,122 @@
+{
+   "data":[
+   {
+     "title":"Overview",
+     "iconClass":"fa fa-tachometer",
+     "href":"#/vm-overview"
+   },
+   {
+     "title":"CPU",
+     "iconClass":"pficon pficon-cpu",
+     "href":"#/vm-cpu"
+   },
+   {
+     "title":"Profiler",
+     "iconClass":"fa fa-bar-chart",
+     "children": [
+       {
+         "title":"Table",
+         "href":"#/vm-profiler/table"
+       },
+       {
+         "title":"Treemap",
+         "href":"#/vm-profiler/treemap"
+       }
+     ]
+   },
+   {
+     "title":"NUMA",
+     "iconClass":"pficon pficon-cluster",
+     "href":"#/vm-numa"
+   },
+   {
+     "title":"GC",
+     "iconClass":"fa fa-trash",
+     "href":"#/vm-gc"
+   },
+   {
+     "title":"Memory",
+     "iconClass":"pficon pficon-memory",
+     "children": [
+       {
+         "title":"Memory",
+         "href":"#/vm-memory/memory"
+       },
+       {
+         "title":"TLAB",
+         "href":"#/vm-memory/tlab"
+       }
+     ]
+   },
+   {
+     "title":"Heap Analyzer",
+     "iconClass":"fa fa-area-chart",
+     "href":"#/vm-heap-analysis"
+   },
+   {
+     "title":"IO",
+     "iconClass":"fa fa-keyboard-o",
+     "href":"#/vm-io"
+   },
+   {
+     "title":"Threads",
+     "iconClass":"pficon pficon-service",
+     "children": [
+       {
+         "title":"Thread Count",
+         "href":"#/vm-threads/count"
+       },
+       {
+         "title":"Timeline",
+         "href":"#/vm-threads/timeline"
+       },
+       {
+         "title":"Locks",
+         "href":"#/vm-threads/locks"
+       },
+       {
+         "title":"Stack Trace Profiler",
+         "href":"#/vm-threads/stacktrace"
+       }
+     ]
+   },
+   {
+     "title":"Compiler",
+     "iconClass":"fa fa-cogs",
+     "href":"#/vm-compiler"
+   },
+   {
+     "title":"Classes",
+     "iconClass":"fa fa-code",
+     "href":"#/vm-classes"
+   },
+   {
+     "title":"Byteman",
+     "iconClass":"fa fa-outdent",
+     "children": [
+       {
+         "title":"Rules",
+         "href":"#/vm-byteman/rules"
+       },
+       {
+         "title":"Metrics",
+         "href":"#/vm-byteman/metrics"
+       },
+       {
+         "title":"Graph",
+         "href":"#/vm-byteman/graph"
+       }
+     ]
+   },
+   {
+     "title":"JMX Notifications",
+     "iconClass":"pficon pficon-network",
+     "href":"#/vm-notifications"
+   },
+   {
+     "title":"Notes",
+     "iconClass":"fa fa-sticky-note",
+     "href":"#/vm-notes"
+   }
+   ]
+}

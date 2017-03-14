@@ -6,7 +6,7 @@
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aptmac/thermostat-web-playground"
+    "url": "https://github.com/aptmac/tms-web-playground"
   },
   "ignore": [
     "**/.*",

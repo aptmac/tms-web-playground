@@ -1,0 +1,7 @@
+.index.html
+.npm-debug.log
+.idea/
+.vscode/
+node_modules/
+dist/
+bower_components/

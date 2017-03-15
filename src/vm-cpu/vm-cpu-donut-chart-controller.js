@@ -1,4 +1,4 @@
-angular.module('apf.vmCpuModule').controller('vmCpuDonutChartController',[function () {
+angular.module('apf.vmCpuModule').controller('vmCpuDonutChartController', [function VmCpuDonutChartController() {
   'use strict';
   var donutConfig = $().c3ChartDefaults().getDefaultDonutConfig('A');
   donutConfig.bindto = '#chart-pf-donut-1';

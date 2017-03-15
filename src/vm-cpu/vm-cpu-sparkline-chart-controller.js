@@ -1,4 +1,4 @@
-angular.module('apf.vmCpuModule').controller('vmCpuSparklineChartController',[function () {
+angular.module('apf.vmCpuModule').controller('vmCpuSparklineChartController', [function VmCpuSparklineChartController() {
   'use strict';
   var sparklineConfig = $().c3ChartDefaults().getDefaultSparklineConfig();
   sparklineConfig.bindto = '#chart-pf-sparkline-1';

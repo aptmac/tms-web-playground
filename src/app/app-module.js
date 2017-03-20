@@ -7,6 +7,9 @@ angular.module ('apf.appModule', [
   'patternfly.toolbars',
   'patternfly.charts',
 
+  // app-wide services
+  'apf.notificationsModule',
+
   // VM-related plugins
   'apf.vmOverviewModule',
   'apf.vmCpuModule',
